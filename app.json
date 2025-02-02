@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "eventsplacee",
+    "slug": "eventsplacee",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logopng.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logopng.png",
+        "backgroundColor": "#ffffff",
+        "permission": [
+          "INTERNET"
+        ]
+      },
+      "package": "com.yourname.eventsplacee"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a9e330c0-38bf-4337-ac76-7d6301eb8793"
+      }
+    }
+  }
+}
